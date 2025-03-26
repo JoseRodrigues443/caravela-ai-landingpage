@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -14,6 +15,10 @@ export default {
 			center: true,
 			padding: '2rem',
 			screens: {
+				'sm': '640px',
+				'md': '768px',
+				'lg': '1024px',
+				'xl': '1280px',
 				'2xl': '1400px'
 			}
 		},
@@ -24,6 +29,18 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				caravela: {
+					blue: {
+						DEFAULT: '#0A2342',
+						light: '#1D3557',
+						dark: '#051D3B'
+					},
+					teal: {
+						DEFAULT: '#2CA58D',
+						light: '#34D1B6',
+						dark: '#238F7A'
+					}
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -70,25 +87,48 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' }
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' }
+				},
+				fadeIn: {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				fadeInLeft: {
+					'0%': { opacity: '0', transform: 'translateX(-20px)' },
+					'100%': { opacity: '1', transform: 'translateX(0)' }
+				},
+				fadeInRight: {
+					'0%': { opacity: '0', transform: 'translateX(20px)' },
+					'100%': { opacity: '1', transform: 'translateX(0)' }
+				},
+				float: {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				pulse: {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.5' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fadeIn': 'fadeIn 0.6s ease-out forwards',
+				'fadeInDelay1': 'fadeIn 0.6s ease-out 0.2s forwards',
+				'fadeInDelay2': 'fadeIn 0.6s ease-out 0.4s forwards',
+				'fadeInDelay3': 'fadeIn 0.6s ease-out 0.6s forwards',
+				'fadeInLeft': 'fadeInLeft 0.6s ease-out forwards',
+				'fadeInRight': 'fadeInRight 0.6s ease-out forwards',
+				'float': 'float 3s ease-in-out infinite',
+				'pulse': 'pulse 3s ease-in-out infinite'
+			},
+			fontFamily: {
+				'sans': ['SF Pro Display', 'SF Pro Text', 'system-ui', 'sans-serif']
 			}
 		}
 	},
