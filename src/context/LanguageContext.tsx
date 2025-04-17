@@ -40,7 +40,7 @@ const en = {
     error: "Something went wrong. Please try again."
   },
   footer: {
-    copyright: "© 2023 Caravela AI. All rights reserved.",
+    copyright: "© 2025 Caravela AI. All rights reserved.",
     privacy: "Privacy Policy",
     terms: "Terms of Service"
   }
@@ -50,42 +50,42 @@ const en = {
 const pt = {
   nav: {
     home: "Início",
-    features: "Recursos",
+    features: "Funcionalidades",
     integrations: "Integrações",
-    about: "Sobre"
+    about: "Sobre Nós"
   },
   hero: {
-    title: "Organize Seu Trabalho, Amplifique Sua Produtividade",
-    subtitle: "Caravela AI conecta todas as suas ferramentas em um só lugar, resume suas tarefas e ajuda você a navegar em seu fluxo de trabalho sem esforço.",
+    title: "Organize o Seu Trabalho, Aumente a Sua Produtividade",
+    subtitle: "A Caravela AI liga todas as suas ferramentas num só local, resume as suas tarefas e ajuda-o a navegar no seu fluxo de trabalho sem esforço.",
     cta: "Obter Acesso Antecipado"
   },
   features: {
-    title: "Por Que Escolher Caravela AI",
+    title: "Porquê Escolher a Caravela AI",
     aggregateTitle: "Agregação de Dados",
-    aggregateDesc: "Conecte todas as suas plataformas de trabalho em um hub centralizado.",
+    aggregateDesc: "Ligue todas as suas plataformas de trabalho num centro centralizado.",
     summarizeTitle: "Resumos Inteligentes",
-    summarizeDesc: "Resumos alimentados por IA do que precisa da sua atenção.",
+    summarizeDesc: "Resumos potenciados por IA daquilo que necessita da sua atenção.",
     notifyTitle: "Notificações Inteligentes",
-    notifyDesc: "Seja alertado sobre trabalhos pendentes e prazos próximos.",
-    automateTitle: "Automação de Fluxo de Trabalho",
-    automateDesc: "Crie e automatize fluxos de trabalho em suas ferramentas integradas."
+    notifyDesc: "Seja alertado sobre trabalhos em falta e prazos próximos.",
+    automateTitle: "Automatização de Fluxos de Trabalho",
+    automateDesc: "Crie e automatize fluxos de trabalho através das suas ferramentas integradas."
   },
   integrations: {
     title: "Integrações Perfeitas",
-    description: "Caravela AI se conecta com todas as suas ferramentas de trabalho essenciais."
+    description: "A Caravela AI liga-se a todas as suas ferramentas de trabalho essenciais."
   },
   newsletter: {
     title: "Mantenha-se Atualizado",
-    description: "Seja o primeiro a saber quando Caravela AI for lançado. Obtenha acesso antecipado e ofertas exclusivas.",
-    placeholder: "Seu endereço de email",
-    button: "Inscrever-se",
-    success: "Obrigado por se inscrever!",
-    error: "Algo deu errado. Por favor, tente novamente."
+    description: "Seja o primeiro a saber quando a Caravela AI for lançada. Obtenha acesso antecipado e ofertas exclusivas.",
+    placeholder: "O seu endereço de email",
+    button: "Subscrever",
+    success: "Obrigado pela sua subscrição!",
+    error: "Algo correu mal. Por favor, tente novamente."
   },
   footer: {
     copyright: "© 2023 Caravela AI. Todos os direitos reservados.",
     privacy: "Política de Privacidade",
-    terms: "Termos de Serviço"
+    terms: "Termos de Utilização"
   }
 };
 

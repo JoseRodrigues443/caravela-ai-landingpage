@@ -1,6 +1,6 @@
 
-import { useLanguage } from "../context/LanguageContext";
 import { Github, Twitter } from "lucide-react";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -36,13 +36,13 @@ export default function Footer() {
                   About
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                   Careers
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://miguelrodrigues.org/#posts" className="text-muted-foreground hover:text-foreground transition-colors">
                   Blog
                 </a>
               </li>
