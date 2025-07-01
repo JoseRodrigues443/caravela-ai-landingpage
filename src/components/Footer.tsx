@@ -11,10 +11,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <a href="#" className="flex items-center mb-4">
+              <img src="/logo.png" alt="Caravela AI Logo" className="h-8 w-8 mr-3" />
               <span className="text-2xl font-bold text-gradient">Caravela AI</span>
             </a>
             <p className="text-muted-foreground max-w-md">
-              Connecting your tools, streamlining your workflow, and helping you navigate the seas of information with confidence.
+              {t.footer.description}
             </p>
             {/* TODO: Add social media links
             <div className="flex space-x-4 mt-6">

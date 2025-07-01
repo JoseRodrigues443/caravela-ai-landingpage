@@ -45,7 +45,8 @@ const en = {
   footer: {
     copyright: "© 2025 Caravela AI. All rights reserved.",
     privacy: "Privacy Policy",
-    terms: "Terms of Service"
+    terms: "Terms of Service",
+    description: "Connecting your tools, streamlining your workflow, and helping you navigate the seas of information with confidence."
   }
 };
 
@@ -92,7 +93,8 @@ const pt = {
   footer: {
     copyright: "© 2025 Caravela AI. Todos os direitos reservados.",
     privacy: "Política de Privacidade",
-    terms: "Termos de Utilização"
+    terms: "Termos de Utilização",
+    description: "Conectando as suas ferramentas, otimizando o seu fluxo de trabalho e ajudando-o a navegar pelos mares de informação com confiança."
   }
 };
 
