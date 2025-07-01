@@ -49,7 +49,7 @@ const en = {
   }
 };
 
-// Portuguese translations
+// European Portuguese translations (pt-PT)
 const pt = {
   nav: {
     home: "Início",
@@ -59,38 +59,38 @@ const pt = {
   },
   hero: {
     title: "Organize o Seu Trabalho, Aumente a Sua Produtividade",
-    subtitle: "A Caravela AI liga todas as suas ferramentas num só local, resume as suas tarefas e ajuda-o a navegar no seu fluxo de trabalho sem esforço.",
+    subtitle: "A Caravela AI liga todas as suas ferramentas num só local, resume as suas tarefas e ajuda-o a gerir o seu fluxo de trabalho de forma simples.",
     cta: "Obter Acesso Antecipado"
   },
   features: {
     title: "Porquê Escolher a Caravela AI",
     aggregateTitle: "Agregação de Dados",
-    aggregateDesc: "Ligue todas as suas plataformas de trabalho num centro centralizado.",
+    aggregateDesc: "Conecte todas as suas plataformas de trabalho num centro único.",
     summarizeTitle: "Resumos Inteligentes",
-    summarizeDesc: "Resumos potenciados por IA daquilo que necessita da sua atenção.",
+    summarizeDesc: "Resumos gerados por IA do que requer a sua atenção.",
     notifyTitle: "Notificações Inteligentes",
-    notifyDesc: "Seja alertado sobre trabalhos em falta e prazos próximos.",
+    notifyDesc: "Receba alertas sobre tarefas pendentes e prazos iminentes.",
     automateTitle: "Automatização de Fluxos de Trabalho",
     automateDesc: "Crie e automatize fluxos de trabalho através das suas ferramentas integradas."
   },
   integrations: {
-    title: "Integrações Perfeitas",
-    description: "A Caravela AI liga-se a todas as suas ferramentas de trabalho essenciais."
+    title: "Integrações Sem Complicações",
+    description: "A Caravela AI conecta-se a todas as suas ferramentas de trabalho essenciais."
   },
   newsletter: {
     title: "Mantenha-se Atualizado",
     description: "Seja o primeiro a saber quando a Caravela AI for lançada. Obtenha acesso antecipado e ofertas exclusivas.",
-    placeholder: "O seu endereço de email",
+    placeholder: "O seu endereço de e-mail",
     button: "Subscrever",
-    success: "Obrigado pela sua subscrição!",
-    successDescription: "Vamos mantê-lo atualizado sobre o progresso da Caravela AI.",
-    error: "Algo correu mal. Por favor, tente novamente.",
+    success: "Obrigado por subscrever!",
+    successDescription: "Vamos mantê-lo informado sobre o progresso da Caravela AI.",
+    error: "Ocorreu um erro. Por favor, tente novamente.",
     subscriptionFailed: "A subscrição falhou. Por favor, tente novamente.",
     networkError: "Erro de rede",
     tryAgainLater: "Por favor, tente novamente mais tarde."
   },
   footer: {
-    copyright: "© 2023 Caravela AI. Todos os direitos reservados.",
+    copyright: "© 2025 Caravela AI. Todos os direitos reservados.",
     privacy: "Política de Privacidade",
     terms: "Termos de Utilização"
   }
@@ -109,7 +109,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
     const savedLang = localStorage.getItem("language");
-    return (savedLang === "en" || savedLang === "pt") ? savedLang as Language : "en";
+    return (savedLang === "en" || savedLang === "pt") ? (savedLang as Language) : "en";
   });
 
   const toggleLanguage = (lang: Language) => {
