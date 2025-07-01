@@ -16,6 +16,7 @@ export default function Footer() {
             <p className="text-muted-foreground max-w-md">
               Connecting your tools, streamlining your workflow, and helping you navigate the seas of information with confidence.
             </p>
+            {/* TODO: Add social media links
             <div className="flex space-x-4 mt-6">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Github className="h-5 w-5" />
@@ -26,6 +27,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
               </a>
             </div>
+              */}
           </div>
 
           <div>

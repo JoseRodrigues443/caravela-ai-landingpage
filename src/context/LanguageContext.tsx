@@ -1,4 +1,3 @@
-
 import { createContext, useContext, useState } from "react";
 
 type Language = "en" | "pt";
@@ -37,7 +36,11 @@ const en = {
     placeholder: "Your email address",
     button: "Subscribe",
     success: "Thank you for subscribing!",
-    error: "Something went wrong. Please try again."
+    successDescription: "We'll keep you updated on Caravela AI's progress.",
+    error: "Something went wrong. Please try again.",
+    subscriptionFailed: "Subscription failed. Please try again.",
+    networkError: "Network error",
+    tryAgainLater: "Please try again later."
   },
   footer: {
     copyright: "© 2025 Caravela AI. All rights reserved.",
@@ -80,7 +83,11 @@ const pt = {
     placeholder: "O seu endereço de email",
     button: "Subscrever",
     success: "Obrigado pela sua subscrição!",
-    error: "Algo correu mal. Por favor, tente novamente."
+    successDescription: "Vamos mantê-lo atualizado sobre o progresso da Caravela AI.",
+    error: "Algo correu mal. Por favor, tente novamente.",
+    subscriptionFailed: "A subscrição falhou. Por favor, tente novamente.",
+    networkError: "Erro de rede",
+    tryAgainLater: "Por favor, tente novamente mais tarde."
   },
   footer: {
     copyright: "© 2023 Caravela AI. Todos os direitos reservados.",
